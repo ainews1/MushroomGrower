@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Mushroom Cap -->
+    <path
+        android:fillColor="#DC143C"
+        android:pathData="M54,24 C30,24 22,50 22,58 C22,70 38,74 54,74 C70,74 86,70 86,58 C86,50 78,24 54,24 Z"/>
+    
+    <!-- White Spots -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M35,42 A6,6 0 1,1 35.01,42 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M58,34 A5,5 0 1,1 58.01,34 Z"/>
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M73,46 A5,5 0 1,1 73.01,46 Z"/>
+    
+    <!-- Stem -->
+    <path
+        android:fillColor="#F5DEB3"
+        android:pathData="M40,70 L40,90 C40,94 46,96 54,96 C62,96 68,94 68,90 L68,70 C68,72 62,74 54,74 C46,74 40,72 40,70 Z"/>
+</vector>

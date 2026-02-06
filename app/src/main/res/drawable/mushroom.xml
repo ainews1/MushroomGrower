@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="120dp"
+    android:viewportWidth="100"
+    android:viewportHeight="120">
+    
+    <!-- Mushroom Cap -->
+    <path
+        android:fillColor="#DC143C"
+        android:pathData="M50,10 C15,10 5,45 5,55 C5,70 25,75 50,75 C75,75 95,70 95,55 C95,45 85,10 50,10 Z"/>
+    
+    <!-- White Spots on Cap -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,35 A8,8 0 1,1 25.01,35 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,25 A6,6 0 1,1 55.01,25 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M75,40 A7,7 0 1,1 75.01,40 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,50 A5,5 0 1,1 40.01,50 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,55 A4,4 0 1,1 65.01,55 Z"/>
+    
+    <!-- Stem -->
+    <path
+        android:fillColor="#F5DEB3"
+        android:pathData="M30,70 L30,110 C30,118 40,120 50,120 C60,120 70,118 70,110 L70,70 C70,72 60,75 50,75 C40,75 30,72 30,70 Z"/>
+    
+    <!-- Stem shading -->
+    <path
+        android:fillColor="#DEB887"
+        android:pathData="M30,70 L30,110 C30,115 35,117 40,118 L40,75 C35,74 30,72 30,70 Z"/>
+    
+</vector>
